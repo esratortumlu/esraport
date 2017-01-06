@@ -1,0 +1,56 @@
+/* Font */
+
+@font-face { font-family: Adam; src: url('fonts/Adam.otf'); }
+
+$mainFont: Adam, sans-serif;
+$fontColor: white;
+
+/* Header style */
+
+.header {
+  padding-bottom: 70px;
+}
+
+.headerPic {
+  background: url('images/esra_background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.title {
+  text-align: center;
+  color: $fontColor;
+  font-size: 4em;
+}
+
+.box {
+  border: 9px white solid;  margin: 0 auto;
+  width: 50%;
+  font-family: $mainFont;
+  color: $fontColor;
+}
+
+.vertical-center {
+  min-height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.subTitle {
+  font-size: 2em;
+  text-align: center;
+}
+
+.subTitleDiv {
+  padding-top: 10px;
+}
+
+.spanTitle {
+  padding-left: 60px;
+}
+
+.underline {
+  border-bottom: 4px solid white;
+  width: 450px;
+  margin: 0px auto 30px auto;
+}
