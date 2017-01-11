@@ -43,4 +43,15 @@
   width: 450px;
   margin: 0px auto 30px auto; }
 
+.links {
+  font-size: 2em;
+  color: white;
+  font-family: Adam, sans-serif;
+  text-align: center; }
+
+.spanLinks {
+  padding-left: 60px; }
+
+/* Main body */
+
 /*# sourceMappingURL=stylesheet.css.map */
